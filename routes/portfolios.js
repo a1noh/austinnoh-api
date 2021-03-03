@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const { getPortfolios } = require("../controller/portfolios");
+const { getPortfolios, getPortfolioById } = require("../controller/portfolios");
 
 router.get("", getPortfolios);
-
+router.get("/:id", getPortfolioById);
 module.exports = router;
