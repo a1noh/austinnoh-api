@@ -2,8 +2,8 @@ const data = {
   portfolios: [
     {
       title: "Job in Netcentric",
-      project: "Netcentric",
-      projectWebsite: "www.google.com",
+      portfolio: "Netcentric",
+      portfolioWebsite: "www.google.com",
       location: "Spain, Barcelona",
       role: "Engineer",
       description: "Doing something, programing....",
@@ -12,8 +12,8 @@ const data = {
     },
     {
       title: "Job in Siemens",
-      project: "Siemens",
-      projectWebsite: "www.google.com",
+      portfolio: "Siemens",
+      portfolioWebsite: "www.google.com",
       location: "Slovakia, Kosice",
       role: "Software Engineer",
       description: "Responsoble for parsing framework for JSON medical data.",
@@ -22,8 +22,8 @@ const data = {
     },
     {
       title: "Work in USA",
-      project: "WhoKnows",
-      projectWebsite: "www.google.com",
+      portfolio: "WhoKnows",
+      portfolioWebsite: "www.google.com",
       location: "USA, Montana",
       role: "Housekeeping",
       description: "So much responsibility....Overloaaaaaad",
