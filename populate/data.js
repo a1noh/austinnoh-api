@@ -1,20 +1,20 @@
 const data = {
   portfolios: [
     {
-      title: "Job in Netcentric",
-      portfolio: "Netcentric",
+      title: "SW ENGINERER",
+      portfolio: "Google",
       portfolioWebsite: "www.google.com",
-      location: "Spain, Barcelona",
+      location: "MV, CA",
       role: "Engineer",
       description: "Doing something, programing....",
       startDate: "01/01/2014",
       endDate: "01/01/2016",
     },
     {
-      title: "Job in Siemens",
-      portfolio: "Siemens",
+      title: "SW INTERN",
+      portfolio: "walmart",
       portfolioWebsite: "www.google.com",
-      location: "Slovakia, Kosice",
+      location: "Seoul KOrea",
       role: "Software Engineer",
       description: "Responsoble for parsing framework for JSON medical data.",
       startDate: "01/01/2011",
