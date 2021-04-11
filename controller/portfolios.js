@@ -52,3 +52,8 @@ exports.updatePortfolio = async (req, res) => {
 
   return res.json({ message: "creating portfolio" });
 };
+
+exports.deletePortfolio = async (req, res) => {
+  const portfolio = await Portfolio.findOneAndRemove({_id: req.params.id});
+  return res.json({_id: portfolio.id})
+}
